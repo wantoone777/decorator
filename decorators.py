@@ -31,4 +31,6 @@ def two(n):
     return l
 
 
-l1 = timeit('name')(one)(10)
+# l1 = timeit('name')(one)(10)
+one(10)
+two(10)
